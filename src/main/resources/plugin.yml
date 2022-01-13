@@ -1,0 +1,13 @@
+name: NPCStatistics
+version: '${project.version}'
+main: com.bungoh.npcstatistics.NPCStatistics
+api-version: 1.18
+depend: [Citizens]
+authors: [ Bungoh ]
+description: NCP Statistics for the Learn Spigot NPC
+
+commands:
+  createnpc:
+    description: Create an NPC
+  removenpc:
+    description: Remove an NPC
