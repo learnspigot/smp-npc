@@ -32,7 +32,6 @@ public final class NPCStatistics extends JavaPlugin {
             getCommand("createnpc").setExecutor(new CreateNPC());
             getCommand("removenpc").setExecutor(new RemoveNPC());
 
-            //TODO maybe there is a better way of approaching this issue?
             //Create Statistic Manager
             new BukkitRunnable() {
                 @Override

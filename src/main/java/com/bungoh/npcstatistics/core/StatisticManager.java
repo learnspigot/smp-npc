@@ -40,7 +40,7 @@ public class StatisticManager {
                 update(Statistic.PLAYER_KILLS);
                 update(Statistic.DEATHS);
             }
-        }.runTaskTimerAsynchronously(NPCStatistics.getInstance(), 0, 60L * 20L);
+        }.runTaskTimerAsynchronously(NPCStatistics.getInstance(), 0, 300L * 20L);
     }
 
     public static StatisticManager getInstance() {
