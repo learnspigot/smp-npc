@@ -1,4 +1,4 @@
-package com.bungoh.npcstatistics.core;
+package com.bungoh.npcstatistics.utils;
 
 import net.citizensnpcs.api.npc.NPC;
 import net.citizensnpcs.trait.SkinTrait;
@@ -19,6 +19,8 @@ public class BNPC {
     }
 
     public void update(OfflinePlayer player) {
+        // FIXME: There's currently a bug within the game that removes the NPC Tag, this is a quick workaround until we have a solid solution
+        npc.setAlwaysUseNameHologram(true);
         npc.setName(type.getColor() + type.getDisplayString() + " " +  ChatColor.WHITE + player.getName());
         skinTrait.setSkinName(player.getName());
     }

@@ -1,4 +1,4 @@
-package com.bungoh.npcstatistics.core;
+package com.bungoh.npcstatistics.utils;
 
 import com.bungoh.npcstatistics.NPCStatistics;
 import net.citizensnpcs.api.npc.NPC;
@@ -129,4 +129,5 @@ public class StatisticManager {
         }
         return false;
     }
+
 }

@@ -1,6 +1,6 @@
 package com.bungoh.npcstatistics.commands;
 
-import com.bungoh.npcstatistics.core.BNPCRemover;
+import com.bungoh.npcstatistics.utils.BNPCRemover;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

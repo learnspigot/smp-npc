@@ -1,8 +1,8 @@
 package com.bungoh.npcstatistics.commands;
 
-import com.bungoh.npcstatistics.core.BNPC;
+import com.bungoh.npcstatistics.utils.BNPC;
 import com.bungoh.npcstatistics.NPCStatistics;
-import com.bungoh.npcstatistics.core.StatisticManager;
+import com.bungoh.npcstatistics.utils.StatisticManager;
 import net.citizensnpcs.api.npc.NPC;
 import net.citizensnpcs.trait.SkinTrait;
 import org.bukkit.ChatColor;
@@ -45,7 +45,7 @@ public class CreateNPC implements CommandExecutor {
         npc.data().setPersistent("stat_type", type.toString());
 
         SkinTrait skinTrait = npc.getOrAddTrait(SkinTrait.class);
-        skinTrait.setSkinName("bungoh");
+        skinTrait.setSkinName("Steve");
 
         npc.spawn(player.getLocation());
 
