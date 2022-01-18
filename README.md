@@ -1,5 +1,5 @@
-# smp-npc
+# smp-npc - END OF LIFE
 
 NPC Plugin. 
 
-Will write more to this README later.
+This plugin is no longer updated. It has been moved into the SMPStats plugin.
